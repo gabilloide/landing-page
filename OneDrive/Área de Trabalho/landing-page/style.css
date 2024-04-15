@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.logo-header {
+    height: 72px;
+}
+
+.menu-header {
+    display: flex;
+    gap: 32px;
+}
+
+.menu-item-header {
+    font-family: "Sarala", sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.content {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.content-primary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.primary {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.title-primary {
+    font-family: Righteous, cursive;
+    font-size: 64px;
+    font-weight: 400;
+    color: #FFF2E7;
+}
+
+.subtitle-primary {
+    font-family: Sarala, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFF2E7;
+}
+
+.button-primary {
+    font-family: Sarala, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #2F2325;
+    background-color:#ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 5px 4px 0px #00000040;
+}
+
+.img-primary {
+    height: 430px;
+}
+
+.content-secundary {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.subtitle-secundary {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    margin-bottom: 16px;
+    font-family: Righteous, cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFF2E7;
+}
+
+.article-item-secundary {
+    font-family: Sarala, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFF2E7;
+}
+
+.footer {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.img-footer {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
